@@ -1,8 +1,28 @@
 .banner{
     position: relative;
-    background-image: url("https://tse3.mm.bing.net/th?id=OIP.4siKIW3oZ4kEo0vkEVQ5hgHaLH&pid=Api&P=0&h=180");
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.G_UKx_10FqDv1I");
     background-position: center;
     height: 400px;
     color: white;
     background-size: cover;
 }
+.nav_bar{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    background-color: grey;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_bar a{
+    color:white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+.nav_bar a:hover{
+    text-decoration: underline;
+}
+
